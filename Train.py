@@ -53,7 +53,7 @@ model.compile(optimizer='adam',
 model.fit(
     train_original_generator,
     steps_per_epoch=train_original_generator.samples // batch_size,
-    epochs=3
+    epochs=15
 )
 
 model.save(model_path)
